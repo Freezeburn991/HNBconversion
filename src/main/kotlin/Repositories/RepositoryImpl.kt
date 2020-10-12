@@ -3,12 +3,11 @@ package Repositories
 import models.*
 import org.json.JSONArray
 import org.json.JSONObject
-import services.convertStringToDateTime
+import Util.convertStringToDateTime
 import java.io.BufferedReader
 import java.io.FileInputStream
 import java.io.IOException
 import java.io.InputStreamReader
-import java.lang.IllegalStateException
 
 // Stavljeno na it da moze biti null, tj. ? jer inace javlja "java.lang.IllegalStateException: it must not be null" jer neki redak moze biti prazan
 
